@@ -105,10 +105,10 @@ cat > index.html <<EOF
 <html>
    <head>
       <title>Tigase Docs</title>
-      <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/master/'" />
+      <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/pubsub/'" />
    </head>
    <body>
-      <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/master/">documentation</a>.</p>
+      <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/pubsub/">documentation</a>.</p>
    </body>
 </html>
 EOF
