@@ -17,11 +17,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:6
-msgid "TIGASE Pubsub Component"
+#: ../../_templates/versions.html:12
+msgid "Languages"
 msgstr ""
 
-#: ../../index.rst:4
-msgid "Welcome to Tigase's Documentation"
+#: ../../_templates/versions.html:22
+msgid "Versions"
+msgstr ""
+
+#: ../../_templates/versions.html:32
+msgid "Downloads"
+msgstr ""
+
+#: ../../_templates/versions.html:40
+msgid "On Read the Docs"
+msgstr ""
+
+#: ../../_templates/versions.html:42
+msgid "Project Home"
+msgstr ""
+
+#: ../../_templates/versions.html:45
+msgid "Builds"
+msgstr ""
+
+#: ../../_templates/versions.html:50
+msgid ""
+"Free document hosting provided by <a "
+"href=\"http://www.readthedocs.org\">Read the Docs</a>."
 msgstr ""
 
