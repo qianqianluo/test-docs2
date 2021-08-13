@@ -5,10 +5,11 @@ Welcome to Tigase's Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: TIGASE-ACS
+   :caption: TIGASE Pubsub Component
 
-   tigase-acs
-   3.0.1
+   Version5.0.0
+   Version4.0.1
+   Version4.0.0
 
 
 
