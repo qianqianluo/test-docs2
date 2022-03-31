@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../Version4.0.0.rst:3
 msgid "Tigase PubSub Component--Version 4.0.0"
-msgstr ""
+msgstr "Tigase PubSub部分构成"
 
