@@ -6,10 +6,9 @@ Welcome to Tigase's Documentation
 .. toctree::
    :maxdepth: 2
    :caption: TIGASE-ACS
-   :glob:
    :numbered:
 
-   tigase-acs/*
+   tigase-acs/about
    3.0.1
    tigase-acs
 
