@@ -12,3 +12,7 @@ Make a flexible server which can be applied to different use cases.
 Make an extensible server which takes full advantage of XMPP protocol extensibility.
 
 Make the server easy to setup and maintain.
+
+.. include:: Robust.rst
+
+.. include:: security.rst
