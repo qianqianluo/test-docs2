@@ -8,7 +8,7 @@ Tigase Advanced Clustering Strategy (ACS)--Version 3.0.1
 1.1. ACS
 --------
 
-ACS is our general purpose, commercial clustering strategy designed for more or less typical XMPP installations of up to 5 - 7.5 millions of online users and up to 50 cluster nodes. The load tests we have run over the code were included a user database with 100mln accounts and an average roster size of up to 150.
+:strike:'ACS' is our general purpose, commercial clustering strategy designed for more or less typical XMPP installations of up to 5 - 7.5 millions of online users and up to 50 cluster nodes. The load tests we have run over the code were included a user database with 100mln accounts and an average roster size of up to 150.
 
 1.2. Design
 -----------

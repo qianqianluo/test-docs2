@@ -64,6 +64,9 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
+extensions = ['_ext.rst_roles', ]
+html_static_path = ['_static', ]
+html_css_files = ['css/user.define.css']
 html_theme_options = {'collapse_navigation': True,
     'sticky_navigation': True,
     'navigation_depth': 0,
