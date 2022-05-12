@@ -14,7 +14,7 @@ Make an extensible server which takes full advantage of XMPP protocol extensibil
 Make the server easy to setup and maintain.
 
 -  `Network settings for Tigase <#Robust>`__
--  :ref:`Network settings for Tigase <Robust>`__
+-  :ref:`Network settings for Tigase <Robust>`
 
 .. include:: Robust.rst
 
