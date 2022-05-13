@@ -64,8 +64,11 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
+rst_prolog = """
+.. role:: test2
+"""
 html_static_path = ['_static']
-html_css_files = ['_static/css/user.define.css']
+html_css_files = ['_static/myStyle.css']
 html_theme_options = {'collapse_navigation': True,
     'sticky_navigation': True,
     'navigation_depth': 0,
