@@ -24,7 +24,7 @@ author = 'Tigase, Inc.'
 # The full version, including alpha/beta/rc tags
 release = '0.1'
 
-
+html_title = 'Tigase-Server Documentation---5/13/2022'
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
