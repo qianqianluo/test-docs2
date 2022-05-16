@@ -16,6 +16,6 @@ Make the server easy to setup and maintain.
 -  `Network settings for Tigase <#Robust>`__
 -  :ref:`Network settings for Tigase <Robust>`
 
-.. include:: Robust.rst
+.. include:: Robust.inc
 
-.. include:: security.rst
+.. include:: security.inc
