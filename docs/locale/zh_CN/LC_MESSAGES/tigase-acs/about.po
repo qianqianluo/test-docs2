@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TigaseDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-16 12:12-0700\n"
+"POT-Creation-Date: 2022-05-16 14:50-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +63,14 @@ msgstr ""
 
 #: ../../tigase-acs/test/Robust.inc:6
 msgid "Robust is good and see whthere it works"
+msgstr ""
+
+#: ../../tigase-acs/test/reliable.inc:2
+msgid "reliable"
+msgstr ""
+
+#: ../../tigase-acs/test/reliable.inc:4
+msgid "test on 5-16-2022"
 msgstr ""
 
 #: ../../tigase-acs/security.inc:2
