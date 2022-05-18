@@ -1,3 +1,0 @@
-[submodule "tigase-server"]
-	path = tigase-server
-	url = https://github.com/tigase/tigase-server.git
