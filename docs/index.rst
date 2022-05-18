@@ -11,4 +11,5 @@ Welcome to Tigase's Documentation
    tigase-acs/about
    3.0.1
    tigase-acs
+   tigase-server/src/main/restructured/index.rst
 
