@@ -1,13 +1,11 @@
 
 ===================================
-Welcome to Tigase's Documentation
+ HTTP API component
 ===================================
 
-test to see where it will show
 
 .. toctree::
-   :maxdepth: 3
-   :caption: TIGASE-ACS
+   titlesonly:
    :numbered:
 
    tigase-acs/about
