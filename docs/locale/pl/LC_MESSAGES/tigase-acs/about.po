@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2022, Tigase, Inc
+# This file is distributed under the same license as the TigaseDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TigaseDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-25 11:02-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../tigase-acs/about.rst:2
+msgid "About Tigase XMPP Server"
+msgstr ""
+
+#: ../../tigase-acs/about.rst:4
+msgid ""
+"Tigase XMPP Server is an Open Source and Free (AGPLv3) Java based server."
+" The goals behind its design and implementation of the server are:"
+msgstr ""
+
+#: ../../tigase-acs/about.rst:6
+msgid "Make the server robust and reliable."
+msgstr ""
+
+#: ../../tigase-acs/about.rst:8
+msgid "Make the server a secure communication platform."
+msgstr ""
+
+#: ../../tigase-acs/about.rst:10
+msgid "Make a flexible server which can be applied to different use cases."
+msgstr ""
+
+#: ../../tigase-acs/about.rst:12
+msgid ""
+"Make an extensible server which takes full advantage of XMPP protocol "
+"extensibility."
+msgstr ""
+
+#: ../../tigase-acs/about.rst:14
+msgid "Make the server easy to setup and maintain."
+msgstr ""
+
+#: ../../tigase-acs/about.rst:16
+msgid "`Network settings for Tigase <#Robust>`__"
+msgstr ""
+
+#: ../../tigase-acs/about.rst:17
+msgid ":ref:`Network settings for Tigase <Robust>`"
+msgstr ""
+
+#: ../../tigase-acs/test/Robust.inc:4
+msgid "Robust and reliable"
+msgstr ""
+
+#: ../../tigase-acs/test/Robust.inc:6
+msgid "Robust is good and see whthere it works"
+msgstr ""
+
+#: ../../tigase-acs/test/reliable.inc:2
+msgid "reliable"
+msgstr ""
+
+#: ../../tigase-acs/test/reliable.inc:4
+msgid "test on 5-16-2022"
+msgstr ""
+
+#: ../../tigase-acs/security.inc:2
+msgid "Security"
+msgstr ""
+
+#: ../../tigase-acs/security.inc:4
+msgid "Secruity is very important"
+msgstr ""
+
