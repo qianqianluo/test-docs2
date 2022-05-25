@@ -27,7 +27,7 @@ The clustering strategy is based on sharing information between cluster nodes ab
 2. Tigase ACS SM Installation
 =============================
 
-v3.0.1 for first test
+v3.0.2 for second test
 
 After downloading the archive it\'s simply matter of extracting it and copying contents of libs/ directory of extracted archive to the libs/ directory in tigase-server/ installation directory, eg. under \*nix systems (assuming the archive was downloaded to main Tigase Server directory):
 
