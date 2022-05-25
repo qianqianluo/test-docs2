@@ -1,14 +1,12 @@
 
 ===================================
- HTTP API component
+Tigase Documentation
 ===================================
 
-
 .. toctree::
-   :titlesonly:
-   :numbered:
+   :caption: Tigase XMPP Server Distribution Administration Guide -Version 8.3.0
+   :maxdepth: 3
 
-   tigase-acs/about
-   3.0.1
-   tigase-acs
-   
+   Tigase_Admistration/index.rst
+
+
