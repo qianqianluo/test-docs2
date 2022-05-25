@@ -40,7 +40,17 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">1. Tigase XMPP Server Release Notes</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#highlights">1.1. Highlights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#other-significant-changes">1.2. Other significant changes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#per-component-changes">1.3. Per-Component Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#per-component-changes">1.3. Per-Component Changes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-xmpp-server-8-3-0-release-notes">1.3.1. Tigase XMPP Server 8.3.0 release notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-mix-1-0-0-release-notes">1.3.2. Tigase MIX 1.0.0 Release Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-pubsub-5-0-0-release-notes">1.3.3. Tigase PubSub 5.0.0 Release Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-muc-3-2-0-release-notes">1.3.4. Tigase MUC 3.2.0 Release Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-http-api-2-2-0-release-notes">1.3.5. Tigase HTTP-API 2.2.0 Release Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-push-1-2-0-release-notes">1.3.6. Tigase Push 1.2.0 Release Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-message-archiving-3-0-0-release-notes">1.3.7. Tigase Message Archiving 3.0.0 Release Notes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tigase-advanced-clustering-strategy-acs-3-2-0-release-note">1.3.8. Tigase Advanced Clustering Strategy (ACS) 3.2.0 Release Note</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -82,6 +92,242 @@
 </section>
 <section id="per-component-changes">
 <h2><span class="section-number">1.3. </span>Per-Component Changes<a class="headerlink" href="#per-component-changes" title="Stały odnośnik do tego nagłówka"></a></h2>
+<section id="tigase-xmpp-server-8-3-0-release-notes">
+<h3><span class="section-number">1.3.1. </span>Tigase XMPP Server 8.3.0 release notes<a class="headerlink" href="#tigase-xmpp-server-8-3-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<p>Tigase XMPP Server 8.3.0 Change notes</p>
+<section id="major-changes">
+<h4><span class="section-number">1.3.1.1. </span>Major Changes<a class="headerlink" href="#major-changes" title="Stały odnośnik do tego nagłówka"></a></h4>
+</section>
+<section id="all-minor-features-behavior-changes">
+<h4><span class="section-number">1.3.1.2. </span>All Minor Features &amp; Behavior Changes<a class="headerlink" href="#all-minor-features-behavior-changes" title="Stały odnośnik do tego nagłówka"></a></h4>
+</section>
+</section>
+<section id="tigase-mix-1-0-0-release-notes">
+<h3><span class="section-number">1.3.2. </span>Tigase MIX 1.0.0 Release Notes<a class="headerlink" href="#tigase-mix-1-0-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id1">
+<h4><span class="section-number">1.3.2.1. </span>Major Changes<a class="headerlink" href="#id1" title="Stały odnośnik do tego nagłówka"></a></h4>
+<p>This is the introductory version of <a class="reference external" href="https://xmpp.org/extensions/xep-0369.html#family">MIX specification family</a></p>
+</section>
+<section id="all-changes">
+<h4><span class="section-number">1.3.2.2. </span>All Changes<a class="headerlink" href="#all-changes" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-2">#mix-2</a>:Implement XEP-0369: Mediated Information eXchange (MIX)</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-3">#mix-3</a>:Implement XEP-0406: Mediated Information eXchange (MIX): MIX Administration</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-6">#mix-6</a>:Create tests for MIX CORE &amp; Participants Server Requirements</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-8">#mix-8</a>:Improve caching</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-9">#mix-9</a>:Add support for MIX-MUC integration</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-10">#mix-10</a>:Invalid response for disco#items</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-14">#mix-14</a>:Add configuration to limit who can create channels in component</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-15">#mix-15</a>:NPE in MAMItemHandler</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-16">#mix-16</a>:Add MIX to installer as option.</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-17">#mix-17</a>:Could not parse new configuration of channel: PubSubException: Only participants and information nodes are supported!</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-18">#mix-18</a>:NPE when sending requests to removed channel nodes</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-19">#mix-19</a>:MAM:2 is not advertised</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-20">#mix-20</a>:MIX component is broadcasting messages with bare JID</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-21">#mix-21</a>:Possibility of duplicated subscription of a node</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-22">#mix-22</a>:Nickname not returned in response after being set</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-23">#mix-23</a>:Remove banned participants from participants list and subscriptions</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-24">#mix-24</a>:NPE in MIXProcessor</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-25">#mix-25</a>:Create MIX component documentation and publish it</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-26">#mix-26</a>:Allow installation admins to manager MIX channels if domain admins are allowed</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-27">#mix-27</a>:MIX-MUC message duplication</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-28">#mix-28</a>:NPE in <code class="docutils literal notranslate"><span class="pre">Affiliations.getSubscriberAffiliation</span></code></p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mix-29">#mix-29</a>:Weird „open channel” behaviour</p></li>
+</ul>
+</section>
+</section>
+<section id="tigase-pubsub-5-0-0-release-notes">
+<h3><span class="section-number">1.3.3. </span>Tigase PubSub 5.0.0 Release Notes<a class="headerlink" href="#tigase-pubsub-5-0-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id2">
+<h4><span class="section-number">1.3.3.1. </span>Major Changes<a class="headerlink" href="#id2" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p>Add publishing executor with rate limiting</p></li>
+<li><p>Optimisations and fixes</p></li>
+</ul>
+</section>
+<section id="id3">
+<h4><span class="section-number">1.3.3.2. </span>All Changes<a class="headerlink" href="#id3" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-102">#pubsub-102</a>: Add publishing executor with rate limiting</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-103">#pubsub-103</a>: Empty message notification id attribute</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-105">#pubsub-105</a>: NPE in RetrieveItemsModule</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-106">#pubsub-106</a>: NPE in PubsubPublishModule?Eventbus</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-107">#pubsub-107</a>: disco#items feature returned on disco#info request for PubSub node item</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-108">#pubsub-108</a>: Fix Missing notification for published events</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-110">#pubsub-110</a>: Fix Deadlock in TigPubSubRemoveService SP on MySQL</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-111">#pubsub-111</a>: Fix SQLException: At least one parameter to the current statement is uninitialized.</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-113">#pubsub-113</a>: Fix StackOverflowError in LRUCacheWithFuture</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-114">#pubsub-114</a>: Fix pubsub#persist_items is not advertised</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-115">#pubsub-115</a>: Fix Cannot add or update a child row: a foreign key constraint fails (<code class="docutils literal notranslate"><span class="pre">tigasedb</span></code>.<code class="docutils literal notranslate"><span class="pre">tig_pubsub_items</span></code>, CONSTRAINT <code class="docutils literal notranslate"><span class="pre">tig_pubsub_items_ibfk_1</span></code> FOREIGN KEY (<code class="docutils literal notranslate"><span class="pre">node_id</span></code>) REFERENCES <code class="docutils literal notranslate"><span class="pre">tig_pubsub_nodes</span></code> (<code class="docutils literal notranslate"><span class="pre">node_id</span></code>))</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-119">#pubsub-119</a>: Fix NPE in DiscoveryModule</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-120">#pubsub-120</a>: Fix Empty element in POST payload is incorrectly parsed</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-121">#pubsub-121</a>: Use String.intern() for PEP CAPS nodes string</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-124">#pubsub-124</a>: Fix PubSub sends notifications about last published item on each presence received from subscriber.</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-125">#pubsub-125</a>: Reported features <code class="docutils literal notranslate"><span class="pre">pubsub#metadata</span></code> should be <code class="docutils literal notranslate"><span class="pre">pubsub#meta-data</span></code></p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-126">#pubsub-126</a>: Fix Deadlocks in MySQL schema</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-127">#pubsub-127</a>: Fix NPE in UserEntry.remove</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/pubsub-128">#pubsub-128</a>: Fix PatternSyntaxException for users with emoticons in resource</p></li>
+</ul>
+</section>
+</section>
+<section id="tigase-muc-3-2-0-release-notes">
+<h3><span class="section-number">1.3.4. </span>Tigase MUC 3.2.0 Release Notes<a class="headerlink" href="#tigase-muc-3-2-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id4">
+<h4><span class="section-number">1.3.4.1. </span>Major Changes<a class="headerlink" href="#id4" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p>Bring MUC specification support up to date</p></li>
+<li><p>Improve handling of multiple user session using same nickname</p></li>
+<li><p>Fixes and improvements to ad-hoc scripts</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4><span class="section-number">1.3.4.2. </span>All Changes<a class="headerlink" href="#id5" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-133">#muc-133</a>: Add component option to let only admins create rooms</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-134">#muc-134</a>: Better MUC Converter log</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-136">#muc-136</a>: MUC specification supported by Tigase MUC is out of data</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-137">#muc-137</a>: Add support for &lt;iq/&gt; forwarding with multiple resources joined</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-138">#muc-138</a>: <a class="reference external" href="mailto:tigase&#37;&#52;&#48;muc&#46;tigase&#46;org">tigase<span>&#64;</span>muc<span>&#46;</span>tigase<span>&#46;</span>org</a> kicks my clients if I use them both</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-139">#muc-139</a>: Create script to (mass) delete MUC rooms</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-140">#muc-140</a>: There is no empty <code class="docutils literal notranslate"><span class="pre">&lt;subject/&gt;</span></code> element for persistent room sent after re-joining</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-141">#muc-141</a>: StringIndexOutOfBoundsException in IqStanzaForwarderModule</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-142">#muc-142</a>: NullPointerException when processing message with subject</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-143">#muc-143</a>: Fix MUC scripts: „No such property: mucRepository for class: tigase.admin.Script151”</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/muc-144">#muc-144</a>: No signature of method: tigase.muc.cluster.RoomClustered.addAffiliationByJid()</p></li>
+</ul>
+</section>
+</section>
+<section id="tigase-http-api-2-2-0-release-notes">
+<h3><span class="section-number">1.3.5. </span>Tigase HTTP-API 2.2.0 Release Notes<a class="headerlink" href="#tigase-http-api-2-2-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id6">
+<h4><span class="section-number">1.3.5.1. </span>Major Changes<a class="headerlink" href="#id6" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p>Enable HTTP File Upload by default with additional, optional, AWS S3 compatible backend</p></li>
+<li><p>Improvements to Web Setup to make installation even more straightforward</p></li>
+<li><p>Allow exposing <code class="docutils literal notranslate"><span class="pre">.well-known</span></code> in the root context to facilitate <a class="reference external" href="https://xmpp.org/extensions/xep-0156.html">XEP-0156: Discovering Alternative XMPP Connection Methods</a></p></li>
+<li><p>Add option to redirect requests from http to https</p></li>
+</ul>
+</section>
+<section id="id7">
+<h4><span class="section-number">1.3.5.2. </span>All Changes<a class="headerlink" href="#id7" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-65">#http-65</a>: More detailed logs</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-86">#http-86</a>: Add s3 backend for http-upload</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-91">#http-91</a>: Items in setup on Features screen are misaligned</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-93">#http-93</a>: Update web-installer documentation</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-95">#http-95</a>: Enable HTTP File Upload by default</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-96">#http-96</a>: Enabling cluster mode / ACS doesn’t add it to resulting configuration file</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-98">#http-98</a>: Setup tests are failing since Septempter</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-99">#http-99</a>: Enforce max-file-size limit</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-100">#http-100</a>: Prevent enabling all Message* plugins</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-101">#http-101</a>: Prevent enabling all Mobile* plugins</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-102">#http-102</a>: Last activity plugins handling should be improved</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-103">#http-103</a>: Enabling http-upload should give an info about requirement to set domain/store</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-105">#http-105</a>: Handle forbidden characters in filenames</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-106">#http-106</a>: Can’t remove user for non-existent VHost</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-107">#http-107</a>: Allow exposing <code class="docutils literal notranslate"><span class="pre">.well-known</span></code> in the root context</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-108">#http-108</a>: Add option to redirect requests from http to https</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-109">#http-109</a>: openAccess option is missing after migrating the component to TK</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-110">#http-110</a>: Add support for querying and managing uploaded files</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-111">#http-111</a>: DefaultLogic.removeExpired removal of slot failed</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-113">#http-113</a>: Add condition to redirect only if the X-Forwarded-Proto has certain value</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-114">#http-114</a>: TigaseDBException: Could not allocate slot</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-116">#http-116</a>: Limiting list of VHosts doesn’t work for JDK based http-server</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-117">#http-117</a>: Http redirection doesn’t work in docker</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-119">#http-119</a>: Can’t change VHost configuration via Admin WebUI</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-120">#http-120</a>: Improve S3 support for HTTP File Upload to accept custom URL and credentials for S3 storage configuration</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/http-121">#http-121</a>: Deprecate DnsWebService and rewrite /.well-known/host-meta</p></li>
+</ul>
+</section>
+</section>
+<section id="tigase-push-1-2-0-release-notes">
+<h3><span class="section-number">1.3.6. </span>Tigase Push 1.2.0 Release Notes<a class="headerlink" href="#tigase-push-1-2-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id8">
+<h4><span class="section-number">1.3.6.1. </span>Major Changes<a class="headerlink" href="#id8" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p>Added support for sending VoIP push notifications using PushKit</p></li>
+<li><p>Support for storing APNS certificates in repository instead of filesystem for easier cluster deployments</p></li>
+<li><p>Add priority detection for push notifications to avoid excessive pushes to devices</p></li>
+<li><p>Inclusion of APNS certificate validity task that notifies if it’s about to expire</p></li>
+</ul>
+</section>
+<section id="id9">
+<h4><span class="section-number">1.3.6.2. </span>All Changes<a class="headerlink" href="#id9" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-29">#push-29</a> Added support for sending VoIP push notifications using PushKit</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-30">#push-30</a> Added REST API handler for quick unregistration of a device</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-32">#push-32</a> Fixed issue with APNS certificate validation</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-33">#push-33</a> Added statistics gathering</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-35">#push-35</a> Added support for APNS certificate in PEM</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-36">#push-36</a> Improved priority detection of push notifications</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-37">#push-37</a> Enable APNS certificates to be stored in UserRepository - management is done via ad-hoc command;</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-39">#push-39</a> Changes to improve error handling</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-41">#push-41</a> Fixed issue with <code class="docutils literal notranslate"><span class="pre">ApnsService</span></code> exceptions not being thown logged</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-42">#push-42</a> Fixed error type reported back on <code class="docutils literal notranslate"><span class="pre">tooManyRequestsForDeviceToken</span></code></p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-47">#push-47</a> Added task to periodically validate SSL certificates for Push notifications</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-48">#push-48</a> Fixed handling events by APNsBinaryApiProvider</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/push-49">#push-49</a> Added enforcement to use HTTP/2 protocol (with use of ALPN)</p></li>
+</ul>
+</section>
+</section>
+<section id="tigase-message-archiving-3-0-0-release-notes">
+<h3><span class="section-number">1.3.7. </span>Tigase Message Archiving 3.0.0 Release Notes<a class="headerlink" href="#tigase-message-archiving-3-0-0-release-notes" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id10">
+<h4><span class="section-number">1.3.7.1. </span>Major Changes<a class="headerlink" href="#id10" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p>Add support for <a class="reference external" href="urn:xmpp:mam:2">urn:xmpp:mam:2</a></p></li>
+<li><p>Add support for <a class="reference external" href="https://xmpp.org/extensions/xep-0308.html">XEP-0308: Last Message Correction</a></p></li>
+</ul>
+</section>
+<section id="id11">
+<h4><span class="section-number">1.3.7.2. </span>All Changes<a class="headerlink" href="#id11" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-47">#mam-47</a>: Add support for <a class="reference external" href="urn:xmpp:mam:2">urn:xmpp:mam:2</a></p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-49">#mam-49</a>: Historical message duplication</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-50">#mam-50</a>: XEP-0308: Last Message Correction</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-51">#mam-51</a>: Fix OMEMO encrypted messages are not stored by MA or MAM</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-54">#mam-54</a>: Fix NPE in MAM/Message Archiving</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-55">#mam-55</a>: Fix IllegalArgumentException in MessageArchiveVHostItemExtension</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-56">#mam-56</a>: Fix upgrade-schema failes</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-58">#mam-58</a>: Change message archiving rules</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-60">#mam-60</a>: Fix Message carbons stored in MAM</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-61">#mam-61</a>: Adjust schema to use new primary keys</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-65">#mam-65</a>: Fix archiveMessage: Data truncation: Data too long for column <code class="docutils literal notranslate"><span class="pre">_body</span></code></p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-66">#mam-66</a>: Fix NPE in AbstractMAMProcessor.updatePrefrerences()</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-67">#mam-67</a>: Fix Incorrect datetime value in JDBCMessageArchiveRepository</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-68">#mam-68</a>: Add option to disable local MAM archive</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-69">#mam-69</a>: Fix Data truncation: Data too long for column «_stanzaId»</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-70">#mam-70</a>: Fix Schema is inconsistent (tigase.org mysql vs clean postgresql)</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/mam-72">#mam-72</a>: Fix Deadlock on inserting message</p></li>
+</ul>
+</section>
+</section>
+<section id="tigase-advanced-clustering-strategy-acs-3-2-0-release-note">
+<h3><span class="section-number">1.3.8. </span>Tigase Advanced Clustering Strategy (ACS) 3.2.0 Release Note<a class="headerlink" href="#tigase-advanced-clustering-strategy-acs-3-2-0-release-note" title="Stały odnośnik do tego nagłówka"></a></h3>
+<section id="id12">
+<h4><span class="section-number">1.3.8.1. </span>Major Changes<a class="headerlink" href="#id12" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p>Deprecate Deprecate PartitionedStrategy in ACS-PubSub</p></li>
+</ul>
+</section>
+<section id="id13">
+<h4><span class="section-number">1.3.8.2. </span>All Changes<a class="headerlink" href="#id13" title="Stały odnośnik do tego nagłówka"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acs-8">#acs-8</a>: Fix NotAuthorizedException: Session has not been yet authorised. in OnlineUsersCachingStrategy</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acsmix-1">#acsmix-1</a>: Implement clustering support for MIX</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acsmix-3">#acsmix-3</a>: Fix NPE in DefaultPubSubLogic</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acsmix-4">#acsmix-4</a>: Fix NPE in DefaultPubSubLogic.subscribersOfNotifications()</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acsmuc-23">#acsmuc-23</a>: Fix NPE in ClusteredRoomStrategyV2</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acsmuc-25">#acsmuc-25</a>: Fix NPE in OccupantChangedPresenceCmd</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acspubsub-20">#acspubsub-20</a>: Fix NPE in pubsub-nodes-changed-cmd</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acspubsub-21">#acspubsub-21</a>: Fix Multiple notifications for single publication</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acspubsub-22">#acspubsub-22</a>: Fix Presences informations are kept indefinitely</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acspubsub-24">#acspubsub-24</a>: Fix caps-changed-cmd not processed correctly</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acspubsub-25">#acspubsub-25</a>: Deprecate PartitionedStrategy</p></li>
+<li><p><a class="reference external" href="https://projects.tigase.net/issue/acspubsub-27">#acspubsub-27</a>: Review and improve clustering documentation</p></li>
+</ul>
+</section>
+</section>
 </section>
 </section>
 
