@@ -5,7 +5,7 @@
 
 
 .. toctree::
-   titlesonly:
+   :titlesonly:
    :numbered:
 
    tigase-acs/about
