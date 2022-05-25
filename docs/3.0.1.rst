@@ -27,7 +27,7 @@ The clustering strategy is based on sharing information between cluster nodes ab
 2. Tigase ACS SM Installation
 =============================
 
-Tigase ACS SM component can be obtained from tigase-acs distribution package.version 8.3.1. All final releases will be available in the Files section of the project. Component is also included in Tigase XMPP Server distribution files (which include both installer and @-dist-max@ flavour of archive).
+delete the whole paragraph
 
 After downloading the archive it\'s simply matter of extracting it and copying contents of libs/ directory of extracted archive to the libs/ directory in tigase-server/ installation directory, eg. under \*nix systems (assuming the archive was downloaded to main Tigase Server directory):
 
