@@ -79,6 +79,9 @@ html_theme_options = {'collapse_navigation': True,
     'display_version': True,
 }
 
+extensions = [
+    "sphinx.ext.viewcode",
+]
 
 
 gettext_compact = False 
