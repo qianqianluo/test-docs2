@@ -1,4 +1,4 @@
 Other significant changes
 ----------------------------
 
-`refer <#Othersignificantchanges>`__
+`refer <#Other-significant-changes>`__
