@@ -1,4 +1,4 @@
 Highlights
 ------------
 
-This version requires JDK17 to run `refer <#Other-significant-changes>`__
+This version requires JDK17 to run `refer <#Other_significant_changes>`__
