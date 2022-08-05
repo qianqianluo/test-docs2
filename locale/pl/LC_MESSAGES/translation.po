@@ -1,0 +1,937 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2022, Tigase, Inc
+# This file is distributed under the same license as the TigaseDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TigaseDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-05 14:35-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../Administration/Release_Notes/_release_notes.rst:2
+msgid "Tigase XMPP Server Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/_release_notes.rst:4
+msgid ""
+"Welcome to Tigase XMPP Server 8.3.0! This is a feature release a number "
+"of fixes and updates. Here is the list of most important features and "
+"changes and below the list of all release notes from all included "
+"components. utilize `tigase-upgrad.sh "
+"<https://raw.githubusercontent.com/qianqianluo/tigase-"
+"server/master/src/main/asciidoc/admin/files/tigase-upgrade.sh>`__ \\*nix"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Highlights.inc:2
+msgid "Highlights"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Highlights.inc:4
+msgid ""
+":This version requires JDK17 to run :ref:`test link<Other significant "
+"changes>`"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Other_Changes.inc:2
+msgid "Other significant changes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Other_Changes.inc:4
+msgid "`refer <#Other-significant-changes>`__"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/_per_component.inc:2
+msgid "Per-Component Changes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/XMPP_release_notes.inc:2
+msgid "Tigase XMPP Server 8.3.0 release notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/XMPP_release_notes.inc:4
+msgid "Tigase XMPP Server 8.3.0 Change notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:7
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:5
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:5
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:5
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:6
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:5
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:7
+#: ../../Administration/Release_Notes/Per_Component/XMPP_release_notes.inc:7
+msgid "Major Changes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/XMPP_release_notes.inc:10
+msgid "All Minor Features & Behavior Changes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:2
+msgid "Tigase MIX 1.0.0 Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:7
+msgid ""
+"This is the introductory version of `MIX specification family "
+"<https://xmpp.org/extensions/xep-0369.html#family>`__"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:14
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:18
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:13
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:11
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:16
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:13
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:20
+msgid "All Changes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:13
+msgid ""
+"`#mix-2 <https://projects.tigase.net/issue/mix-2>`__:Implement XEP-0369: "
+"Mediated Information eXchange (MIX)"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:15
+msgid ""
+"`#mix-3 <https://projects.tigase.net/issue/mix-3>`__:Implement XEP-0406: "
+"Mediated Information eXchange (MIX): MIX Administration"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:17
+msgid ""
+"`#mix-6 <https://projects.tigase.net/issue/mix-6>`__:Create tests for MIX"
+" CORE & Participants Server Requirements"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:19
+msgid "`#mix-8 <https://projects.tigase.net/issue/mix-8>`__:Improve caching"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:21
+msgid ""
+"`#mix-9 <https://projects.tigase.net/issue/mix-9>`__:Add support for MIX-"
+"MUC integration"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:23
+msgid ""
+"`#mix-10 <https://projects.tigase.net/issue/mix-10>`__:Invalid response "
+"for disco#items"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:25
+msgid ""
+"`#mix-14 <https://projects.tigase.net/issue/mix-14>`__:Add configuration "
+"to limit who can create channels in component"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:27
+msgid ""
+"`#mix-15 <https://projects.tigase.net/issue/mix-15>`__:NPE in "
+"MAMItemHandler"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:29
+msgid ""
+"`#mix-16 <https://projects.tigase.net/issue/mix-16>`__:Add MIX to "
+"installer as option."
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:31
+msgid ""
+"`#mix-17 <https://projects.tigase.net/issue/mix-17>`__:Could not parse "
+"new configuration of channel: PubSubException: Only participants and "
+"information nodes are supported!"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:33
+msgid ""
+"`#mix-18 <https://projects.tigase.net/issue/mix-18>`__:NPE when sending "
+"requests to removed channel nodes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:35
+msgid ""
+"`#mix-19 <https://projects.tigase.net/issue/mix-19>`__:MAM:2 is not "
+"advertised"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:37
+msgid ""
+"`#mix-20 <https://projects.tigase.net/issue/mix-20>`__:MIX component is "
+"broadcasting messages with bare JID"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:39
+msgid ""
+"`#mix-21 <https://projects.tigase.net/issue/mix-21>`__:Possibility of "
+"duplicated subscription of a node"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:41
+msgid ""
+"`#mix-22 <https://projects.tigase.net/issue/mix-22>`__:Nickname not "
+"returned in response after being set"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:43
+msgid ""
+"`#mix-23 <https://projects.tigase.net/issue/mix-23>`__:Remove banned "
+"participants from participants list and subscriptions"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:45
+msgid "`#mix-24 <https://projects.tigase.net/issue/mix-24>`__:NPE in MIXProcessor"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:47
+msgid ""
+"`#mix-25 <https://projects.tigase.net/issue/mix-25>`__:Create MIX "
+"component documentation and publish it"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:49
+msgid ""
+"`#mix-26 <https://projects.tigase.net/issue/mix-26>`__:Allow installation"
+" admins to manager MIX channels if domain admins are allowed"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:51
+msgid ""
+"`#mix-27 <https://projects.tigase.net/issue/mix-27>`__:MIX-MUC message "
+"duplication"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:53
+msgid ""
+"`#mix-28 <https://projects.tigase.net/issue/mix-28>`__:NPE in "
+"``Affiliations.getSubscriberAffiliation``"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Mix_release_notes.inc:55
+msgid ""
+"`#mix-29 <https://projects.tigase.net/issue/mix-29>`__:Weird \"open "
+"channel\" behaviour"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:2
+msgid "Tigase PubSub 5.0.0 Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:7
+msgid "Add publishing executor with rate limiting"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:9
+msgid "Optimisations and fixes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:15
+msgid ""
+"`#pubsub-102 <https://projects.tigase.net/issue/pubsub-102>`__: Add "
+"publishing executor with rate limiting"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:17
+msgid ""
+"`#pubsub-103 <https://projects.tigase.net/issue/pubsub-103>`__: Empty "
+"message notification id attribute"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:19
+msgid ""
+"`#pubsub-105 <https://projects.tigase.net/issue/pubsub-105>`__: NPE in "
+"RetrieveItemsModule"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:21
+msgid ""
+"`#pubsub-106 <https://projects.tigase.net/issue/pubsub-106>`__: NPE in "
+"PubsubPublishModule?Eventbus"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:23
+msgid ""
+"`#pubsub-107 <https://projects.tigase.net/issue/pubsub-107>`__: "
+"disco#items feature returned on disco#info request for PubSub node item"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:25
+msgid ""
+"`#pubsub-108 <https://projects.tigase.net/issue/pubsub-108>`__: Fix "
+"Missing notification for published events"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:27
+msgid ""
+"`#pubsub-110 <https://projects.tigase.net/issue/pubsub-110>`__: Fix "
+"Deadlock in TigPubSubRemoveService SP on MySQL"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:29
+msgid ""
+"`#pubsub-111 <https://projects.tigase.net/issue/pubsub-111>`__: Fix "
+"SQLException: At least one parameter to the current statement is "
+"uninitialized."
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:31
+msgid ""
+"`#pubsub-113 <https://projects.tigase.net/issue/pubsub-113>`__: Fix "
+"StackOverflowError in LRUCacheWithFuture"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:33
+msgid ""
+"`#pubsub-114 <https://projects.tigase.net/issue/pubsub-114>`__: Fix "
+"pubsub#persist_items is not advertised"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:35
+msgid ""
+"`#pubsub-115 <https://projects.tigase.net/issue/pubsub-115>`__: Fix "
+"Cannot add or update a child row: a foreign key constraint fails "
+"(``tigasedb``.\\ ``tig_pubsub_items``, CONSTRAINT "
+"``tig_pubsub_items_ibfk_1`` FOREIGN KEY (``node_id``) REFERENCES "
+"``tig_pubsub_nodes`` (``node_id``))"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:37
+msgid ""
+"`#pubsub-119 <https://projects.tigase.net/issue/pubsub-119>`__: Fix NPE "
+"in DiscoveryModule"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:39
+msgid ""
+"`#pubsub-120 <https://projects.tigase.net/issue/pubsub-120>`__: Fix Empty"
+" element in POST payload is incorrectly parsed"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:41
+msgid ""
+"`#pubsub-121 <https://projects.tigase.net/issue/pubsub-121>`__: Use "
+"String.intern() for PEP CAPS nodes string"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:43
+msgid ""
+"`#pubsub-124 <https://projects.tigase.net/issue/pubsub-124>`__: Fix "
+"PubSub sends notifications about last published item on each presence "
+"received from subscriber."
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:45
+msgid ""
+"`#pubsub-125 <https://projects.tigase.net/issue/pubsub-125>`__: Reported "
+"features ``pubsub#metadata`` should be ``pubsub#meta-data``"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:47
+msgid ""
+"`#pubsub-126 <https://projects.tigase.net/issue/pubsub-126>`__: Fix "
+"Deadlocks in MySQL schema"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:49
+msgid ""
+"`#pubsub-127 <https://projects.tigase.net/issue/pubsub-127>`__: Fix NPE "
+"in UserEntry.remove"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/PubSub_release_notes.inc:51
+msgid ""
+"`#pubsub-128 <https://projects.tigase.net/issue/pubsub-128>`__: Fix "
+"PatternSyntaxException for users with emoticons in resource"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:2
+msgid "Tigase MUC 3.2.0 Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:8
+msgid "Bring MUC specification support up to date"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:10
+msgid "Improve handling of multiple user session using same nickname"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:12
+msgid "Fixes and improvements to ad-hoc scripts"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:18
+msgid ""
+"`#muc-133 <https://projects.tigase.net/issue/muc-133>`__: Add component "
+"option to let only admins create rooms"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:20
+msgid ""
+"`#muc-134 <https://projects.tigase.net/issue/muc-134>`__: Better MUC "
+"Converter log"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:22
+msgid ""
+"`#muc-136 <https://projects.tigase.net/issue/muc-136>`__: MUC "
+"specification supported by Tigase MUC is out of data"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:24
+msgid ""
+"`#muc-137 <https://projects.tigase.net/issue/muc-137>`__: Add support for"
+" <iq/> forwarding with multiple resources joined"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:26
+msgid ""
+"`#muc-138 <https://projects.tigase.net/issue/muc-138>`__: "
+"tigase@muc.tigase.org kicks my clients if I use them both"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:28
+msgid ""
+"`#muc-139 <https://projects.tigase.net/issue/muc-139>`__: Create script "
+"to (mass) delete MUC rooms"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:30
+msgid ""
+"`#muc-140 <https://projects.tigase.net/issue/muc-140>`__: There is no "
+"empty ``<subject/>`` element for persistent room sent after re-joining"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:32
+msgid ""
+"`#muc-141 <https://projects.tigase.net/issue/muc-141>`__: "
+"StringIndexOutOfBoundsException in IqStanzaForwarderModule"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:34
+msgid ""
+"`#muc-142 <https://projects.tigase.net/issue/muc-142>`__: "
+"NullPointerException when processing message with subject"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:36
+msgid ""
+"`#muc-143 <https://projects.tigase.net/issue/muc-143>`__: Fix MUC "
+"scripts: \"No such property: mucRepository for class: "
+"tigase.admin.Script151\""
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Muc_release_notes.inc:38
+msgid ""
+"`#muc-144 <https://projects.tigase.net/issue/muc-144>`__: No signature of"
+" method: tigase.muc.cluster.RoomClustered.addAffiliationByJid()"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:2
+msgid "Tigase HTTP-API 2.2.0 Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:7
+msgid ""
+"Enable HTTP File Upload by default with additional, optional, AWS S3 "
+"compatible backend"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:9
+msgid "Improvements to Web Setup to make installation even more straightforward"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:11
+msgid ""
+"Allow exposing ``.well-known`` in the root context to facilitate "
+"`XEP-0156: Discovering Alternative XMPP Connection Methods "
+"<https://xmpp.org/extensions/xep-0156.html>`__"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:13
+msgid "Add option to redirect requests from http to https"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:20
+msgid ""
+"`#http-65 <https://projects.tigase.net/issue/http-65>`__: More detailed "
+"logs"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:22
+msgid ""
+"`#http-86 <https://projects.tigase.net/issue/http-86>`__: Add s3 backend "
+"for http-upload"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:24
+msgid ""
+"`#http-91 <https://projects.tigase.net/issue/http-91>`__: Items in setup "
+"on Features screen are misaligned"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:26
+msgid ""
+"`#http-93 <https://projects.tigase.net/issue/http-93>`__: Update web-"
+"installer documentation"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:28
+msgid ""
+"`#http-95 <https://projects.tigase.net/issue/http-95>`__: Enable HTTP "
+"File Upload by default"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:30
+msgid ""
+"`#http-96 <https://projects.tigase.net/issue/http-96>`__: Enabling "
+"cluster mode / ACS doesn’t add it to resulting configuration file"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:32
+msgid ""
+"`#http-98 <https://projects.tigase.net/issue/http-98>`__: Setup tests are"
+" failing since Septempter"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:34
+msgid ""
+"`#http-99 <https://projects.tigase.net/issue/http-99>`__: Enforce max-"
+"file-size limit"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:36
+msgid ""
+"`#http-100 <https://projects.tigase.net/issue/http-100>`__: Prevent "
+"enabling all Message\\* plugins"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:38
+msgid ""
+"`#http-101 <https://projects.tigase.net/issue/http-101>`__: Prevent "
+"enabling all Mobile\\* plugins"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:40
+msgid ""
+"`#http-102 <https://projects.tigase.net/issue/http-102>`__: Last activity"
+" plugins handling should be improved"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:42
+msgid ""
+"`#http-103 <https://projects.tigase.net/issue/http-103>`__: Enabling "
+"http-upload should give an info about requirement to set domain/store"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:44
+msgid ""
+"`#http-105 <https://projects.tigase.net/issue/http-105>`__: Handle "
+"forbidden characters in filenames"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:46
+msgid ""
+"`#http-106 <https://projects.tigase.net/issue/http-106>`__: Can’t remove "
+"user for non-existent VHost"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:48
+msgid ""
+"`#http-107 <https://projects.tigase.net/issue/http-107>`__: Allow "
+"exposing ``.well-known`` in the root context"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:50
+msgid ""
+"`#http-108 <https://projects.tigase.net/issue/http-108>`__: Add option to"
+" redirect requests from http to https"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:52
+msgid ""
+"`#http-109 <https://projects.tigase.net/issue/http-109>`__: openAccess "
+"option is missing after migrating the component to TK"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:54
+msgid ""
+"`#http-110 <https://projects.tigase.net/issue/http-110>`__: Add support "
+"for querying and managing uploaded files"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:56
+msgid ""
+"`#http-111 <https://projects.tigase.net/issue/http-111>`__: "
+"DefaultLogic.removeExpired removal of slot failed"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:58
+msgid ""
+"`#http-113 <https://projects.tigase.net/issue/http-113>`__: Add condition"
+" to redirect only if the X-Forwarded-Proto has certain value"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:60
+msgid ""
+"`#http-114 <https://projects.tigase.net/issue/http-114>`__: "
+"TigaseDBException: Could not allocate slot"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:62
+msgid ""
+"`#http-116 <https://projects.tigase.net/issue/http-116>`__: Limiting list"
+" of VHosts doesn’t work for JDK based http-server"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:64
+msgid ""
+"`#http-117 <https://projects.tigase.net/issue/http-117>`__: Http "
+"redirection doesn’t work in docker"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:66
+msgid ""
+"`#http-119 <https://projects.tigase.net/issue/http-119>`__: Can’t change "
+"VHost configuration via Admin WebUI"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:68
+msgid ""
+"`#http-120 <https://projects.tigase.net/issue/http-120>`__: Improve S3 "
+"support for HTTP File Upload to accept custom URL and credentials for S3 "
+"storage configuration"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/HTTP_API_release_notes.inc:70
+msgid ""
+"`#http-121 <https://projects.tigase.net/issue/http-121>`__: Deprecate "
+"DnsWebService and rewrite /.well-known/host-meta"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:2
+msgid "Tigase Push 1.2.0 Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:9
+msgid "Added support for sending VoIP push notifications using PushKit"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:11
+msgid ""
+"Support for storing APNS certificates in repository instead of filesystem"
+" for easier cluster deployments"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:13
+msgid ""
+"Add priority detection for push notifications to avoid excessive pushes "
+"to devices"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:15
+msgid ""
+"Inclusion of APNS certificate validity task that notifies if it’s about "
+"to expire"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:22
+msgid ""
+"`#push-29 <https://projects.tigase.net/issue/push-29>`__ Added support "
+"for sending VoIP push notifications using PushKit"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:24
+msgid ""
+"`#push-30 <https://projects.tigase.net/issue/push-30>`__ Added REST API "
+"handler for quick unregistration of a device"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:26
+msgid ""
+"`#push-32 <https://projects.tigase.net/issue/push-32>`__ Fixed issue with"
+" APNS certificate validation"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:28
+msgid ""
+"`#push-33 <https://projects.tigase.net/issue/push-33>`__ Added statistics"
+" gathering"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:30
+msgid ""
+"`#push-35 <https://projects.tigase.net/issue/push-35>`__ Added support "
+"for APNS certificate in PEM"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:32
+msgid ""
+"`#push-36 <https://projects.tigase.net/issue/push-36>`__ Improved "
+"priority detection of push notifications"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:34
+msgid ""
+"`#push-37 <https://projects.tigase.net/issue/push-37>`__ Enable APNS "
+"certificates to be stored in UserRepository - management is done via ad-"
+"hoc command;"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:36
+msgid ""
+"`#push-39 <https://projects.tigase.net/issue/push-39>`__ Changes to "
+"improve error handling"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:38
+msgid ""
+"`#push-41 <https://projects.tigase.net/issue/push-41>`__ Fixed issue with"
+" ``ApnsService`` exceptions not being thown logged"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:40
+msgid ""
+"`#push-42 <https://projects.tigase.net/issue/push-42>`__ Fixed error type"
+" reported back on ``tooManyRequestsForDeviceToken``"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:42
+msgid ""
+"`#push-47 <https://projects.tigase.net/issue/push-47>`__ Added task to "
+"periodically validate SSL certificates for Push notifications"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:44
+msgid ""
+"`#push-48 <https://projects.tigase.net/issue/push-48>`__ Fixed handling "
+"events by APNsBinaryApiProvider"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Push_release_notes.inc:46
+msgid ""
+"`#push-49 <https://projects.tigase.net/issue/push-49>`__ Added "
+"enforcement to use HTTP/2 protocol (with use of ALPN)"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:2
+msgid "Tigase Message Archiving 3.0.0 Release Notes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:7
+msgid "Add support for urn:xmpp:mam:2"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:9
+msgid ""
+"Add support for `XEP-0308: Last Message Correction "
+"<https://xmpp.org/extensions/xep-0308.html>`__"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:15
+msgid ""
+"`#mam-47 <https://projects.tigase.net/issue/mam-47>`__: Add support for "
+"urn:xmpp:mam:2"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:17
+msgid ""
+"`#mam-49 <https://projects.tigase.net/issue/mam-49>`__: Historical "
+"message duplication"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:19
+msgid ""
+"`#mam-50 <https://projects.tigase.net/issue/mam-50>`__: XEP-0308: Last "
+"Message Correction"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:21
+msgid ""
+"`#mam-51 <https://projects.tigase.net/issue/mam-51>`__: Fix OMEMO "
+"encrypted messages are not stored by MA or MAM"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:23
+msgid ""
+"`#mam-54 <https://projects.tigase.net/issue/mam-54>`__: Fix NPE in "
+"MAM/Message Archiving"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:25
+msgid ""
+"`#mam-55 <https://projects.tigase.net/issue/mam-55>`__: Fix "
+"IllegalArgumentException in MessageArchiveVHostItemExtension"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:27
+msgid ""
+"`#mam-56 <https://projects.tigase.net/issue/mam-56>`__: Fix upgrade-"
+"schema failes"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:29
+msgid ""
+"`#mam-58 <https://projects.tigase.net/issue/mam-58>`__: Change message "
+"archiving rules"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:31
+msgid ""
+"`#mam-60 <https://projects.tigase.net/issue/mam-60>`__: Fix Message "
+"carbons stored in MAM"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:33
+msgid ""
+"`#mam-61 <https://projects.tigase.net/issue/mam-61>`__: Adjust schema to "
+"use new primary keys"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:35
+msgid ""
+"`#mam-65 <https://projects.tigase.net/issue/mam-65>`__: Fix "
+"archiveMessage: Data truncation: Data too long for column ``_body``"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:37
+msgid ""
+"`#mam-66 <https://projects.tigase.net/issue/mam-66>`__: Fix NPE in "
+"AbstractMAMProcessor.updatePrefrerences()"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:39
+msgid ""
+"`#mam-67 <https://projects.tigase.net/issue/mam-67>`__: Fix Incorrect "
+"datetime value in JDBCMessageArchiveRepository"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:41
+msgid ""
+"`#mam-68 <https://projects.tigase.net/issue/mam-68>`__: Add option to "
+"disable local MAM archive"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:43
+msgid ""
+"`#mam-69 <https://projects.tigase.net/issue/mam-69>`__: Fix Data "
+"truncation: Data too long for column '_stanzaId'"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:45
+msgid ""
+"`#mam-70 <https://projects.tigase.net/issue/mam-70>`__: Fix Schema is "
+"inconsistent (tigase.org mysql vs clean postgresql)"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/Message_release_notes.inc:47
+msgid ""
+"`#mam-72 <https://projects.tigase.net/issue/mam-72>`__: Fix Deadlock on "
+"inserting message"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:2
+msgid "Tigase Advanced Clustering Strategy (ACS) 3.2.0 Release Note"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:9
+msgid "Deprecate Deprecate PartitionedStrategy in ACS-PubSub"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:16
+msgid ""
+"`#acs-8 <https://projects.tigase.net/issue/acs-8>`__: Fix "
+"NotAuthorizedException: Session has not been yet authorised. in "
+"OnlineUsersCachingStrategy"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:18
+msgid ""
+"`#acsmix-1 <https://projects.tigase.net/issue/acsmix-1>`__: Implement "
+"clustering support for MIX"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:20
+msgid ""
+"`#acsmix-3 <https://projects.tigase.net/issue/acsmix-3>`__: Fix NPE in "
+"DefaultPubSubLogic"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:22
+msgid ""
+"`#acsmix-4 <https://projects.tigase.net/issue/acsmix-4>`__: Fix NPE in "
+"DefaultPubSubLogic.subscribersOfNotifications()"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:24
+msgid ""
+"`#acsmuc-23 <https://projects.tigase.net/issue/acsmuc-23>`__: Fix NPE in "
+"ClusteredRoomStrategyV2"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:26
+msgid ""
+"`#acsmuc-25 <https://projects.tigase.net/issue/acsmuc-25>`__: Fix NPE in "
+"OccupantChangedPresenceCmd"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:28
+msgid ""
+"`#acspubsub-20 <https://projects.tigase.net/issue/acspubsub-20>`__: Fix "
+"NPE in pubsub-nodes-changed-cmd"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:30
+msgid ""
+"`#acspubsub-21 <https://projects.tigase.net/issue/acspubsub-21>`__: Fix "
+"Multiple notifications for single publication"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:32
+msgid ""
+"`#acspubsub-22 <https://projects.tigase.net/issue/acspubsub-22>`__: Fix "
+"Presences informations are kept indefinitely"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:34
+msgid ""
+"`#acspubsub-24 <https://projects.tigase.net/issue/acspubsub-24>`__: Fix "
+"caps-changed-cmd not processed correctly"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:36
+msgid ""
+"`#acspubsub-25 <https://projects.tigase.net/issue/acspubsub-25>`__: "
+"Deprecate PartitionedStrategy"
+msgstr ""
+
+#: ../../Administration/Release_Notes/Per_Component/ACS_release_notes.inc:38
+msgid ""
+"`#acspubsub-27 <https://projects.tigase.net/issue/acspubsub-27>`__: "
+"Review and improve clustering documentation"
+msgstr ""
+
+#: ../../Administration/index.rst:1 ../../index.rst:6
+msgid "Tigase XMPP Server Distribution Administration Guide -Version 8.3.0"
+msgstr ""
+
+#: ../../Development/develoment.rst:2
+msgid "test"
+msgstr ""
+
+#: ../../index.rst:4
+msgid "Tigase Documentation"
+msgstr ""
+
