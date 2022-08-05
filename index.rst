@@ -10,3 +10,10 @@ Tigase Documentation
    Administration/index.rst
 
 
+
+.. toctree::
+   :maxdepth: 3
+
+   Development/development.rst
+
+
